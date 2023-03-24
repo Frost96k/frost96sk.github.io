@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="icon" href="Imagenes/logo.png">
+    <title>Curriculum vitae</title>
+    
+</head>
+
+<body>
+    
+        
+    <section>
+        <img id="profile" src="https://randomuser.me/api/portraits/men/94.jpg"  alt="Imagen no disponible">
+        <h1>Roger Castro</h1>
+        <div class="row">
+            <button id="me" class="active" onclick="showTab(1)"><img src="/Imagenes/me.png" alt=""></button> 
+            <button id="handshake" onclick="showTab(2)"><img src="/Imagenes/handshake.png" alt=""></button> 
+            <button id="head" onclick="showTab(3)"><img src="/Imagenes/head.png" alt=""></button>    
+        </div>
+        
+    </section>
+    <div id="tab-1" class="Datos_personales">
+            <h2><u>Datos Personales</u></h2>
+        <ul>
+            
+            <li>Correo Electronico: roger.castro@example.com</li>
+            <li>Telefono: (524) 625-6392</li>
+            <li>Direccion: 2848 Bruce St</li>
+            <li>Fecha de nacimiento: 8/5/1988</li>
+        </ul>
+    </div>
+    
+    
+    <div id="tab-2" class="Aptitudes">
+        <h5><strong><u> Aptitudes y Habilidades</u></strong> </h5>
+        <ul>
+            <li>Trabajo en equipo</li>
+            <li>Prediposicion Full time</li>
+            <li>Ingles Intermedio</li>
+            <li>Ingles Tecnico Avanzado</li>
+            <li>Frances Basico</li>
+
+        </ul>
+    </div>
+    <div id="tab-3" class="Formacion_laboral">
+        <h6><strong><u>Formacion Profesional</u></strong></h6>
+            <ul>
+                <li>Desarrollador Web Fullstack Inicio: 22/12/2022 | <Strong>Estado:</Strong>Cursando </li>
+                <li>Front: Maquetado Web, HTML5, CSS3, Javascript, Bootstrap, Prototipado</li>
+                <li>Introducción a Desarrollo Web: 02/08/2022 | Estado: Finalizado</li>
+                
+            </ul>
+        <br>
+
+    </div>
+    <script src="JS/Function.js"></script>
+</body>
+</html>

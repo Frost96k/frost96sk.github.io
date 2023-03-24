@@ -1,0 +1,116 @@
+body{
+ 
+  background: url("/Imagenes/1235129.jpg") center ;
+  backdrop-filter: blur(5px) ;
+  
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    text-anchor: middle;
+    background-color: rgb(40, 53, 53);
+     
+
+}
+h2{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h3,h4,h5,h6{
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+ul{
+   
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+section{
+    background-color:  rgb(40, 53, 53);
+    width: 400px;
+    padding: 30px;
+    
+    
+    border-radius: 20px;
+    margin-left: 33%;
+    margin-right: 50%;
+    margin-bottom: 2%;
+}
+div.Datos_personales{
+    background-color:  rgb(40, 53, 53);
+    margin-top: auto;
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 30px;
+    
+    margin-bottom: 2%;
+    
+}
+
+
+div.Aptitudes{
+    background-color:  rgb(40, 53, 53);
+    margin-top: auto;
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 30px;
+ 
+    margin-bottom: 2%;
+}
+img{
+    
+    display: block;
+    border-radius: 50%;
+    border: 4px solid rgb(40, 53, 53);
+    
+
+}
+div.Formacion_laboral{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  rgb(40, 53, 53);
+    margin-top: auto;
+    width: 600px;
+    padding: 30px;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+}
+button{
+    background-color:rgb(40, 53, 53);
+    /*margin-right: 5px;*/
+    border: 3px rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 1s ease;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#profile{
+    display: block;
+    margin: auto;
+}
+#tab-2,#tab-3{
+    display: none;
+}
+#me.active,#handshake.active,#head.active{
+    background-color: darkcyan;
+}
